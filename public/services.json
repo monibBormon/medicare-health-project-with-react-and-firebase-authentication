@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "health check",
+        "description": "Our medical service is very essential for every the patients.We use modern technology to diagnose diseases and also we have many experts.This blog is all about the dubious, bad and sometimes lunatic developments in the medical world.It will cover not only the science, but also the human and social side of medicine. And it isn't afraid to poke fun at those who cry out to have fun poked at them. A U.K. based site,so beware of the English-isms and U.K. pounds. Other than that, fun, informative, thought-provoking.One of the best blogs in medicine (says no less an authority than the British Medical Journal) is Ves Dimov's Clinical Cases and Images – Blog. ",
+        "image": "https://image.freepik.com/free-photo/closeup-shot-boy-getting-checkup-by-doctor_181624-34747.jpg",
+        "icon": "fas fa-heartbeat"
+    },
+    {
+        "id": 2,
+        "title": "operation theater",
+        "description": "Our medical service is very essential for every the patients.We use modern technology to diagnose diseases and also we have many experts.This blog is all about the dubious, bad and sometimes lunatic developments in the medical world.It will cover not only the science, but also the human and social side of medicine. And it isn't afraid to poke fun at those who cry out to have fun poked at them. A U.K. based site,so beware of the English-isms and U.K. pounds. Other than that, fun, informative, thought-provoking.One of the best blogs in medicine (says no less an authority than the British Medical Journal) is Ves Dimov's Clinical Cases and Images – Blog. ",
+        "image": "https://image.freepik.com/free-photo/surgeons-adjusting-oxygen-mask-patient-mouth-operation-theater_107420-64871.jpg",
+        "icon": "fas fa-procedures"
+    },
+    {
+        "id": 3,
+        "title": "pharmacy support",
+        "description": "Our medical service is very essential for every the patients.We use modern technology to diagnose diseases and also we have many experts.This blog is all about the dubious, bad and sometimes lunatic developments in the medical world.It will cover not only the science, but also the human and social side of medicine. And it isn't afraid to poke fun at those who cry out to have fun poked at them. A U.K. based site,so beware of the English-isms and U.K. pounds. Other than that, fun, informative, thought-provoking.One of the best blogs in medicine (says no less an authority than the British Medical Journal) is Ves Dimov's Clinical Cases and Images – Blog. ",
+        "image": "https://image.freepik.com/free-photo/healthcare-equipment-office-supplies-with-succulent-plant-green-backdrop_23-2148213947.jpg",
+        "icon": "far fa-hospital"
+    },
+    {
+        "id": 4,
+        "title": "ambulance support",
+        "description": "Our medical service is very essential for every the patients.We use modern technology to diagnose diseases and also we have many experts.This blog is all about the dubious, bad and sometimes lunatic developments in the medical world.It will cover not only the science, but also the human and social side of medicine. And it isn't afraid to poke fun at those who cry out to have fun poked at them. A U.K. based site,so beware of the English-isms and U.K. pounds. Other than that, fun, informative, thought-provoking.One of the best blogs in medicine (says no less an authority than the British Medical Journal) is Ves Dimov's Clinical Cases and Images – Blog. ",
+        "image": "https://image.freepik.com/free-photo/british-ambulance-parked-parking-lot_53876-63438.jpg",
+        "icon": "fas fa-ambulance"
+    },
+    {
+        "id": 5,
+        "title": "lab test",
+        "description": "Our medical service is very essential for every the patients.We use modern technology to diagnose diseases and also we have many experts.This blog is all about the dubious, bad and sometimes lunatic developments in the medical world.It will cover not only the science, but also the human and social side of medicine. And it isn't afraid to poke fun at those who cry out to have fun poked at them. A U.K. based site,so beware of the English-isms and U.K. pounds. Other than that, fun, informative, thought-provoking.One of the best blogs in medicine (says no less an authority than the British Medical Journal) is Ves Dimov's Clinical Cases and Images – Blog. ",
+        "image": "https://image.freepik.com/free-photo/examining-sample-with-microscope_1098-18424.jpg",
+        "icon": "fas fa-vial"
+    },
+    {
+        "id": 6,
+        "title": "intensive care",
+        "description": "Our medical service is very essential for every the patients.We use modern technology to diagnose diseases and also we have many experts.This blog is all about the dubious, bad and sometimes lunatic developments in the medical world.It will cover not only the science, but also the human and social side of medicine. And it isn't afraid to poke fun at those who cry out to have fun poked at them. A U.K. based site,so beware of the English-isms and U.K. pounds. Other than that, fun, informative, thought-provoking.One of the best blogs in medicine (says no less an authority than the British Medical Journal) is Ves Dimov's Clinical Cases and Images – Blog. ",
+        "image": "https://image.freepik.com/free-photo/happy-doctor-holding-clipboard-with-patients_1098-2176.jpg",
+        "icon": "fas fa-address-card"
+    }
+]
