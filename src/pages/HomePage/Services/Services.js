@@ -11,7 +11,7 @@ const Services = () => {
             .then(data => setServices(data))
     }, [])
     return (
-        <div className='py-10'>
+        <div className='py-10' id='services'>
             <div className="container mx-auto">
                 <div className="service-title text-center mb-16">
                     <h2 className='text-5xl font-semibold mb-3 text-gray-600'>Our Services</h2>
