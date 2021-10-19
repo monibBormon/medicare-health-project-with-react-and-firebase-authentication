@@ -3,7 +3,7 @@ import { Link, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 
 const SignUp = () => {
-    const { googleSignIn, getEmail, getPassword, handleRegister, setError, error, setIsLoading, getName, setUserName, facebookSignIn, verifyEmail } = useAuth()
+    const { googleSignIn, getEmail, getPassword, handleRegister, setError, error, setIsLoading, getName, setUserName, facebookSignIn } = useAuth()
 
     //for redirect
     const location = useLocation()
@@ -33,7 +33,7 @@ const SignUp = () => {
         handleRegister()
             .then(result => {
                 setUserName()
-                verifyEmail()
+                // verifyEmail()
                 history.push(redirect_url)
             })
             .catch(error => {
