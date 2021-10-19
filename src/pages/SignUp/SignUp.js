@@ -48,7 +48,7 @@ const SignUp = () => {
                         </Link>
                         <h3 className='text-3xl font-semibold text-gray-600 my-2'>Or</h3>
                         <div className="social-login">
-                            <button onClick={handleGoogleSignIn}>Google</button>
+                            <button onClick={handleGoogleSignIn}><img className='w-8 inline-block' src="https://image.flaticon.com/icons/png/512/281/281764.png" alt="" /></button>
                         </div>
                     </div>
                 </div>
