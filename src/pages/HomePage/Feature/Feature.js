@@ -3,8 +3,8 @@ import React from 'react';
 const Feature = () => {
     return (
         <div className='feature-area py-10'>
-            <div className="container mx-auto">
-                <div className="grid grid-cols-3 gap-4">
+            <div className="md:container md:mx-auto px-5 md:px-0">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <div style={{ transition: '.3s all' }} className="single-feature text-center shadow-xl py-10 px-6 rounded">
                         <div className="feature-icon">
                             <i style={{ transition: '.3s all' }} class="fas fa-briefcase-medical text-5xl text-blue-500 mb-4"></i>

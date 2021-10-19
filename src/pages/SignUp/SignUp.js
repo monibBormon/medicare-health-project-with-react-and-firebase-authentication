@@ -28,8 +28,8 @@ const SignUp = () => {
             })
     }
     return (
-        <div className='container mx-auto'>
-            <div className="grid grid-cols-2 gap-4 items-center">
+        <div className='md:container md:mx-auto px-5 md:px-0 py-6'>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
                 <div className="login">
                     <h2 className='text-4xl font-semibold mb-5 text-gray-600'>Please Sign Up or Register</h2>
                     <div className="login-form">

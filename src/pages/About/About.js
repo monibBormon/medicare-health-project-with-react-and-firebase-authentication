@@ -3,8 +3,8 @@ import React from 'react';
 const About = () => {
     return (
         <div className='py-10'>
-            <div className="container mx-auto">
-                <div className="grid grid-cols-2 gap-4">
+            <div className="md:container md:mx-auto px-5 md:px-0">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="about-bg">
                         <img className='rounded-lg' src="https://image.freepik.com/free-photo/team-young-specialist-doctors-standing-corridor-hospital_1303-21199.jpg" alt="about-bg" />
                     </div>

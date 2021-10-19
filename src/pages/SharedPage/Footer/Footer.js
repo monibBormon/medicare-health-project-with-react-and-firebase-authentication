@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='py-10 border-t-2 border-blue-100'>
-            <div className="container mx-auto">
-                <div className="grid grid-cols-4 gap-4">
+            <div className="md:container md:mx-auto px-5 md:px-0">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <div className="footer-logo">
                         <p className='text-blue-500 text-4xl font-semibold'>Medi<span className='text-red-500'>Care+</span></p>
                         <p className='mt-3'>Our Clinic has grown to provide a world class facility for the clinic advanced restorative.
