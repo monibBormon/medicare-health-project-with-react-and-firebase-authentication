@@ -3,7 +3,9 @@ import { Link, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 
 const Login = () => {
-    const { googleSignIn, getEmail, getPassword, handleLogin, setError, error, setIsLoading } = useAuth()
+    const { googleSignIn, getEmail, getPassword, handleLogin, setError, error, setIsLoading, facebookSignIn } = useAuth()
+
+    //for redirect
     const location = useLocation()
     const redirect_url = location.state?.from || '/'
     const history = useHistory()
@@ -11,6 +13,14 @@ const Login = () => {
     const handleGoogleSignIn = () => {
         setIsLoading(true)
         googleSignIn()
+            .then(result => {
+                history.push(redirect_url)
+            })
+            .finally(() => setIsLoading(false))
+    }
+    const handleFacebookSignIn = () => {
+        setIsLoading(true)
+        facebookSignIn()
             .then(result => {
                 history.push(redirect_url)
             })
@@ -47,7 +57,8 @@ const Login = () => {
                         </Link>
                         <h3 className='text-3xl font-semibold text-gray-600 my-2'>Or</h3>
                         <div className="social-login">
-                            <button onClick={handleGoogleSignIn}><img className='w-8 inline-block' src="https://image.flaticon.com/icons/png/512/281/281764.png" alt="" /></button>
+                            <button onClick={handleGoogleSignIn}><img className='w-8 inline-block mr-3' src="https://image.flaticon.com/icons/png/512/281/281764.png" alt="" /></button>
+                            <button onClick={handleFacebookSignIn}><img className='w-8 inline-block mr-3' src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="" /></button>
                         </div>
                     </div>
                 </div>
