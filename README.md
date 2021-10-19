@@ -8,6 +8,7 @@ https://medicare-health-project.web.app/
 
 ### Website Feature
 * Login System
-* See Services Details
+* See medical Services
 * Social Login 
 * Fully mobile responsive
+* Book an appointment
